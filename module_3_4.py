@@ -8,7 +8,7 @@ def single_root_words(root_word, *other_words):
     return same_words
 
 
-result = single_root_words('able', 'disable', 'cheers', 'ABLE', 'disablement', )
+result = single_root_words('able', 'disable', 'cheers', 'ABLE', 'disablement')
 print(result)
 result1 = single_root_words('Back', 'BacKgRound', 'BackYard', 'cheers', 'Backup')
 print(result1)
